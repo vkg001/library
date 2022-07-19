@@ -1,10 +1,1 @@
-$(document).on("click", ".toggleVisibility", function() {
-    var th = $(this) ;
-    if (th.data("onclick-show")) {
-        $(th.data("onclick-show")).fadeIn();
-    }
-
-    if (th.data("onclick-hide")) {
-        $(th.data("onclick-hide")).hide();
-    }
-})
+$(document).on("click",".toggleVisibility",function(){var a=$(this);a.data("onclick-show")&&$(a.data("onclick-show")).show(),a.data("onclick-hide")&&$(a.data("onclick-hide")).hide(),a.data("onchange-show")&&$(a.data("onchange-show")).show(),a.data("onchange-hide")&&$(a.data("onchange-hide")).hide(),a.data("onclick-fadein")&&$(a.data("onclick-fadein")).fadeIn(),a.data("onclick-fadeout")&&$(a.data("onclick-fadeout")).fadeOut(),a.data("onchange-fadein")&&$(a.data("onchange-fadein")).fadeIn(),a.data("onchange-fadeout")&&$(a.data("onchange-fadeout")).fadeOut()});
