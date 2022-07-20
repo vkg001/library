@@ -1,1 +1,0 @@
-$(document).on("click",".toggleVisibility",function(){var a=$(this);a.data("onclick-show")&&$(a.data("onclick-show")).show(),a.data("onclick-hide")&&$(a.data("onclick-hide")).hide(),a.data("onclick-fadein")&&$(a.data("onclick-fadein")).fadeIn(),a.data("onclick-fadeout")&&$(a.data("onclick-fadeout")).fadeOut()})
